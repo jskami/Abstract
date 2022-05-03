@@ -1,0 +1,17 @@
+package alone_coding;
+
+public class CarTest {
+	public static void main(String[] args) {
+		Bus bus = new Bus();
+		AutoCar autocar = new AutoCar();
+		
+		bus.run();
+		autocar.run();
+		
+		bus.refuel();
+		autocar.refuel();
+		
+		bus.takePassenger();
+		autocar.load();
+	}
+}

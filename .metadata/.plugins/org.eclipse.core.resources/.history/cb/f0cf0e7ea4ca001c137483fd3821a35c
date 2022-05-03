@@ -1,0 +1,19 @@
+package gameLevel;
+
+public class AdvancedLevel {
+	public void run() {
+		System.out.println("빠르게 달려");
+	}
+	
+	public void jump() {
+		System.out.println("점프할 수 있어");
+	}
+	
+	public void turn() {
+		System.out.println("턴할 수 없어");
+	}
+	
+	
+	
+	
+}

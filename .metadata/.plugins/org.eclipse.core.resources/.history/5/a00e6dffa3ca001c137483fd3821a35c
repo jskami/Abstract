@@ -1,0 +1,17 @@
+package gameLevel;
+
+public class BeginnerLevel extends PlayerLevel {
+	public void run() {
+		System.out.println("천천히 달려");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

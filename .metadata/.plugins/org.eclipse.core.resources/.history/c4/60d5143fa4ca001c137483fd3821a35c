@@ -1,0 +1,7 @@
+package gameLevel;
+
+public class AdvancedLevel {
+	public void run() {
+		
+	}
+}

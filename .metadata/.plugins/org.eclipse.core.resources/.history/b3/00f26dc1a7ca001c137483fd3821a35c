@@ -1,0 +1,19 @@
+package gameLevel;
+
+public class MainBoard {
+	public static void main(String[] args) {
+		Player p1 = new Player();
+		p1.play(1);
+		
+		Player p2 = new Player();
+		p2.play(3);
+		
+		AdvancedLevel aLevel = new AdvancedLevel();
+		p2.upgradeLevel(aLevel);
+		p2.play(3);
+		
+		SuperLevel sLevel = new SuperLevel();
+		
+		
+	}
+}

@@ -1,0 +1,7 @@
+package alone_coding_2;
+
+public class MainBoard {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,7 @@
+package abstractEx;
+
+public class DeskTop extends Computer {
+	public void display() {
+		
+	}
+}

@@ -1,0 +1,24 @@
+package template;
+
+/* 템플릿 메서드 291p*/
+public abstract class Car {
+	public abstract void drive();
+	public abstract void stop();
+	
+	public void startCar() {
+		System.out.println("시동을 켠다.");
+	}
+	
+	public void turnOff() {
+		System.out.println("시동을 끈다.");
+	}
+	
+	
+	// 템플릿 메서드
+	final public void run() {
+		startCar();
+		drive();
+		stop();
+		turnOff();
+	}
+}

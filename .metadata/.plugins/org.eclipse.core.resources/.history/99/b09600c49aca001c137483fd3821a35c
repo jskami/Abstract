@@ -1,0 +1,5 @@
+package alone_coding;
+
+public class Bus extends Car {
+
+}

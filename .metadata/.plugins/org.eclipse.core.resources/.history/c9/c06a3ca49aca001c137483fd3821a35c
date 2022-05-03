@@ -1,0 +1,10 @@
+package alone_coding;
+
+public class Car {
+	public void run();
+	public void refuel();
+	
+	public void stop() {
+		System.out.println("Â÷°¡ ¸ØÃä´Ï´Ù.");
+	}
+}

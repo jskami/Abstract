@@ -1,0 +1,20 @@
+package gameLevel;
+
+public class SuperLevel extends PlayerLevel {
+	public void run() {
+		
+	}
+	
+	public void jump() {
+		
+	}
+	
+	public void turn() {
+		
+	}
+	
+	public void showLevelInfo() {
+		
+	}
+
+}
