@@ -15,5 +15,9 @@ public class CalculatorTest {
 		// 디폴트 메서드 호출하기
 		calc.description();
 		
+		// 정적메서드 호출하기
+		int[] arr = {10, 20, 30, 40, 50};
+		System.out.println(Calc.total(arr));
+		
 	}
 }

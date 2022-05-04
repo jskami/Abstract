@@ -15,6 +15,29 @@ public interface Calc {
 	// 인터페이스에서 디폴트 메서드 구현하기 : 메서드 자료형 앞에 default 예약어 작성
 	default void description() {
 		System.out.println("정수 계산기를 구현합니다.(디폴트 메서드, 인터페이스에서 만들었지만 인터페이스를 구현한 클래스가 있는 경우 디폴트 메서드는 클래스에서 사용된다.)");
+		myMethod(); // 디폴트 메서드 내에서 추상메서드 정의, private static을 사용해서 호출할거야.
 	}
+	
+	// 정적 메서드 구현하기
+	static int total(int[] arr) {
+		int total = 0;
+	
+		for(int i : arr) {
+			total += i;
+		}
+		myStaticMethod();	// 정적 메서드 내에서 추상메서드 정의, 위와 마찬가지로 private static을 사용해서 호출할 예정
+		return total;
+	}	// 인터페이스에 정적 메서드 total()구현
+	
+	// private 메서드
+	private void myMethod() {
+		System.out.println("private 메서드입니다.");
+	}
+	
+	// private static 메서드
+	private static void myStaticMethod() {
+		System.out.println("private static 메서드입니다.");
+	}
+	
 	
 }
