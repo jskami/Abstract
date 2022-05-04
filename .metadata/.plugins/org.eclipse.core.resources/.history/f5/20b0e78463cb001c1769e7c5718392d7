@@ -35,5 +35,6 @@ public class SchedulerTest {
 		// 어떤 정책인가와 상관없이 인터페이스에 선언한 메서드 호출
 		scheduler.getNextCall();
 		scheduler.sendCallToAgent();
+		
 	}
 }
